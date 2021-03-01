@@ -1,0 +1,89 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightnav {
+    width: 200px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0%;
+    right: 0%;
+}
+
+#leftnav {
+    width: 200px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0%;
+    left: 0%;
+}
+
+#low {
+    background-color: rgb(236, 236, 236);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0%;
+    left: 0%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+#search{
+    width: 524px;
+    height: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchform {
+    width: 85%;
+    height: 42px;
+    border-style: none;
+    outline: none;
+}
+
+.buttons {
+    width: 150px;
+    height: 25px;
+    border-style: none;
+}
+
+.buttons:hover {
+    border-style: groove;
+}
