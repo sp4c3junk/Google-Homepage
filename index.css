@@ -72,7 +72,7 @@ h1 {
 }
 
 #searchform {
-    width: 85%;
+    width: 75%;
     height: 42px;
     border-style: none;
     outline: none;
@@ -80,10 +80,22 @@ h1 {
 
 .buttons {
     width: 150px;
-    height: 25px;
+    height: 30px;
     border-style: none;
+    border-radius: 3px;
 }
 
 .buttons:hover {
-    border-style: groove;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#micr {
+  margin-left: 50px;
+  max-height: 50%;
+}
+
+#lens {
+  max-height: 50%;
+  margin-right: 10px;
 }
